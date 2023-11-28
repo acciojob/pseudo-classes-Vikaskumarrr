@@ -27,6 +27,6 @@ ul li:nth-child(odd){
 	ul li:last-child { 
 		font-size:22px}
 }
- ul li:nth-last-child{
-	background-color: pink;
+ul li:nth-last-child{
+	color: pink;
 }
