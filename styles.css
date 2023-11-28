@@ -1,32 +1,45 @@
-/*  your css code here. If applicable */
-*{
-	background-color: rgb(135,206,235)
+:root {
+  --page-background-color: rgb(135, 206, 235);
 }
 
-article {
-	background-color: black;
+body {
+  background-color: var(--page-background-color);
 }
-article p:first-child{
-	color:white;
+
+p:first-child {
+  color: white;
+  background-color: black;
 }
-article p:nth-child(2){
-	color: initial;
+
+p:nth-child(2) {
+  color: inherit;
+  background-color: inherit;
 }
-article p:last-child{
-	color:red;
+
+p:last-child {
+  color: red;
 }
-ul li{
-	width:50%;
-	padding:10px;
-	background-color: gray;
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
-ul li:nth-child(odd){
-	background-color: white;
+
+li {
+  background-color: gray;
+  width: 50%;
+  padding: 10px;
 }
-	ul li:first-child,
-	ul li:last-child { 
-		font-size:22px}
+
+li:nth-child(odd) {
+  background-color: white;
 }
-ul li:nth-last-child{
-	color: pink;
+
+li:first-child,
+li:last-child {
+  font-size: 22px;
+}
+
+li:nth-last-child(3) {
+  background-color: pink;
 }
