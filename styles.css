@@ -21,7 +21,7 @@ p:last-child {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: dot-dash;
   padding: 0;
 }
 
