@@ -21,8 +21,8 @@ p:last-child {
 }
 
 ul {
-  list-style-type: dot-dash;
   padding: 0;
+	margin-left: 30px
 }
 
 li {
